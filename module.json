@@ -63,6 +63,29 @@
                 }
               ]
             }
+          ],
+          "quiz" : [
+            {
+              "question" : "Is Ruby a static or dynamic language?",
+              "answers" : [
+                {
+                "1" : "Static",
+                "2" : "Dynamic"
+                }
+            ],
+              "answer": "2"
+            },
+            {
+              "question" : "What does TDD stand for?",
+              "answers": [
+                {
+                "1": "Test Driven Development",
+                "2": "Test Develop Drive",
+                "3": "Till Development's Done"
+                }
+              ],
+              "answer": "1"
+            }
           ]
         },
         {

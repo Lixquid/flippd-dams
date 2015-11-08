@@ -66,6 +66,7 @@
           ],
           "quiz" : [
             {
+              "title" : "Ruby Quiz",
               "question" : "Is Ruby a static or dynamic language?",
               "answers" : [
                 {

@@ -64,7 +64,7 @@
               ]
             }
           ],
-          "quiz" : [
+          "quizzes" : [
             {
               "title" : "Ruby Quiz",
               "questions" : [

@@ -64,21 +64,38 @@
               ]
             }
           ],
-          "quiz" : {
-            "title" : "Ruby Quiz",
-            "questions" : [
-              {
-                "question" : "Is Ruby a static or dynamic language?",
-                "answers" : ["Static", "Dynamic"],
-                "correct_answer": 1
-              },
-              {
-                "question" : "What does TDD stand for?",
-                "answers": ["Test Driven Development", "Test Develop Drive", "Till Development's Done"],
-                "correct_answer": 0
-              }
-            ]
-          }
+          "quiz" : [
+            {
+              "title" : "Ruby Quiz",
+              "questions" : [
+                {
+                  "question" : "Is Ruby a static or dynamic language?",
+                  "answers" : ["Static", "Dynamic"],
+                  "correct_answer": 1
+                },
+                {
+                  "question" : "What does TDD stand for?",
+                  "answers": ["Test Driven Development", "Test Develop Drive", "Till Development's Done"],
+                  "correct_answer": 0
+                }
+              ]
+            },
+            {
+              "title": "Ruby Quiz 2",
+              "questions": [
+                {
+                  "question": "There are two undefined variables, a and b. What does a = b evaluate to?",
+                  "answers": [ "nil", "b", "Raises an exception" ],
+                  "correct_answer": 2
+                },
+                {
+                  "question": "There are two undefined variables, a and b. What does a = a evaluate to?",
+                  "answers": [ "nil", "b", "Raises an exception" ],
+                  "correct_answer": 0
+                }
+              ]
+            }
+          ]
         },
         {
           "title" : "Approach",

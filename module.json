@@ -8,9 +8,10 @@
         {
           "title" : "Ruby",
           "summary" : "An introduction to Ruby, which is the - purely object-oriented and somewhat functional - programming language used in DAMS.",
-          "videos" : [
+          "items" : [
             {
               "title" : "Ruby",
+              "type" : "video",
               "description" : "Briefly introduces Ruby, comparing it to Java and Python.",
               "youtube" : "NTGSi6kBrlU",
               "resources" : [
@@ -38,6 +39,7 @@
             },
             {
               "title" : "Ruby Gems",
+              "type" : "video",
               "description" : "Introduces RubyGems and Bundler for managing Ruby dependencies.",
               "youtube" : "bn6ZIdJxysg",
               "resources" : [
@@ -62,11 +64,10 @@
                   "icon" : "book"
                 }
               ]
-            }
-          ],
-          "quizzes" : [
+            },
             {
               "title" : "Ruby Quiz",
+              "type" : "quiz",
               "questions" : [
                 {
                   "question" : "Is Ruby a static or dynamic language?",
@@ -82,6 +83,7 @@
             },
             {
               "title": "Ruby Quiz 2",
+              "type" : "quiz",
               "questions": [
                 {
                   "question": "There are two undefined variables, a and b. What does a = b evaluate to?",
@@ -100,9 +102,10 @@
         {
           "title" : "Approach",
           "summary" : "A very light introduction to software engineering processes, and a look at some of the challenges you might face when using a reactive (Agile) approach.",
-          "videos" : [
+          "items" : [
             {
               "title" : "Planning vs. reacting",
+              "type" : "video",
               "description" : "An argument for combining plan-driven and reactionary software engineering.",
               "youtube" : "ciU9en3yHpo",
               "resources" : [
@@ -125,6 +128,7 @@
             },
             {
               "title" : "TDD and RSpec",
+              "type" : "video",
               "description" : "A recap of TDD and an overview of the RSpec testing framework.",
               "youtube" : "iRan2IniRmU",
               "resources" : [
@@ -157,6 +161,7 @@
             },
             {
               "title" : "Test doubles",
+              "type" : "video",
               "description" : "A set of techniques that can be used bring almost any code under test.",
               "youtube" : "nduUjMbJ5to",
               "resources" : [
@@ -192,9 +197,10 @@
         {
           "title" : "Tools",
           "summary" : "A brief introduction to three of the key tools used in DAMS.",
-          "videos" : [
+          "items" : [
             {
               "title" : "Ruby Parser",
+              "type" : "video",
               "description" : "An overview of the fundamentals of program analysis in Ruby.",
               "youtube" : "OWGYj_KEhvY",
               "resources" : [
@@ -217,6 +223,7 @@
             },
             {
               "title" : "Vagrant",
+              "type" : "video",
               "description" : "A solution to the \"It works on my machine\" problem.",
               "youtube" : "UzYyPG6LuKc",
               "resources" : [
@@ -239,6 +246,7 @@
             },
             {
               "title" : "Git",
+              "type" : "video",
               "description" : "A recap of version control, and a brief introduction to Git.",
               "youtube" : "MmpbE9B6F8Q",
               "resources" : [
@@ -265,9 +273,10 @@
         {
           "title" : "Leaner",
           "summary" : "Lean software has no extra parts. Every part is factored into small pieces.",
-          "videos" : [
+          "items" : [
             {
               "title" : "Why lean?",
+              "type" : "video",
               "description" : "Lean software solves a single problem well.",
               "youtube" : "szYPXN7lLe4",
               "resources" : [
@@ -285,6 +294,7 @@
             },
             {
               "title" : "Size metrics",
+              "type" : "video",
               "description" : "The Lines of Code metric, and alternatives to it.",
               "youtube" : "es6vLYKLvbs",
               "resources" : [
@@ -302,6 +312,7 @@
             },
             {
               "title" : "Getting lean",
+              "type" : "video",
               "description" : "The Extract Method and Extract Class refactorings.",
               "youtube" : "IWOY1diAGlE",
               "resources" : [
@@ -332,9 +343,10 @@
         {
           "title" : "Less Complex",
           "summary" : "Methods that have fewer control-flow paths are easier to reason about, and hence easier to maintain.",
-          "videos" : [
+          "items" : [
             {
               "title" : "Why simplicity?",
+              "type" : "video",
               "description" : "An exploration of complexity in software, and how simplicity can win.",
               "youtube" : "XmCiCjwoLy0",
               "resources" : [
@@ -352,6 +364,7 @@
             },
             {
               "title" : "Complexity metrics",
+              "type" : "video",
               "description" : "The McCabe Cyclomatic and ABC metrics for quantifying complexity.",
               "youtube" : "tTMFpKpjM1k",
               "resources" : [
@@ -369,6 +382,7 @@
             },
             {
               "title" : "Getting simple",
+              "type" : "video",
               "description" : "Tactics for avoiding loops and conditionals.",
               "youtube" : "gZuNXq0Ty-c",
               "resources" : [
@@ -404,9 +418,10 @@
         {
           "title" : "Avoiding Duplication",
           "summary" : "Changes are easier to make when every piece of knowledge is specified once and only once.",
-          "videos" : [
+          "items" : [
             {
               "title" : "Why not duplicate?",
+              "type" : "video",
               "description" : "Avoiding duplication of knowledge is key to habitable software.",
               "youtube" : "EQDTkZwSHz0",
               "resources" : [
@@ -424,6 +439,7 @@
             },
             {
               "title" : "Clone detection",
+              "type" : "video",
               "description" : "Baker's algorithm for detecting similar fragments of code.",
               "youtube" : "Up6qznduO6o",
               "resources" : [
@@ -441,6 +457,7 @@
             },
             {
               "title" : "Reducing duplication",
+              "type" : "video",
               "description" : "Making clones more alike, template methods, and strategies.",
               "youtube" : "-sf2zPnHBOw",
               "resources" : [
@@ -471,9 +488,10 @@
         {
           "title" : "Loose Coupling",
           "summary" : "Loosely coupled software can be altered without affecting its collaborators, and re-used in new contexts.",
-          "videos" : [
+          "items" : [
             {
               "title" : "Why loose coupling?",
+              "type" : "video",
               "description" : "Explains how dependencies are powerful yet perilious.",
               "youtube" : "hWyeKs0LZGA",
               "resources" : [
@@ -491,6 +509,7 @@
             },
             {
               "title" : "Coupling metrics",
+              "type" : "video",
               "description" : "The MPC and CBO metrics for quantifying coupling.",
               "youtube" : "xuGxHsvDwpw",
               "resources" : [
@@ -508,6 +527,7 @@
             },
             {
               "title" : "Getting loose coupling",
+              "type" : "video",
               "description" : "Dependency injection, inversion of control, tell don't ask and gateways.",
               "youtube" : "XlQfMGsVr_0",
               "resources" : [
@@ -528,9 +548,10 @@
         {
           "title" : "More Cohesive",
           "summary" : "When software is arranged such that similar parts are close to each other, it is easier to maintain because changes are localised.",
-          "videos" : [
+          "items" : [
             {
               "title" : "Why cohesion?",
+              "type" : "video",
               "description" : "Some parts of our software simply belong together.",
               "youtube" : "BEm2ki8iZrA",
               "resources" : [
@@ -548,6 +569,7 @@
             },
             {
               "title" : "Cohesion metrics",
+              "type" : "video",
               "description" : "The LCOM4 cohesion metric for identifying classes with many responsibilities.",
               "youtube" : "hL_TpzwCjiE",
               "resources" : [
@@ -565,6 +587,7 @@
             },
             {
               "title" : "Getting cohesion",
+              "type" : "video",
               "description" : "Extacting classes, moving methods, and using wrappers.",
               "youtube" : "BEm2ki8iZrA",
               "resources" : [
@@ -585,9 +608,10 @@
         {
           "title" : "Clarity",
           "summary" : "Code is read much more often than it is written. Therefore, habitable software reads like a good story well told.",
-          "videos" : [
+          "items" : [
             {
               "title" : "Why clarity?",
+              "type" : "video",
               "description" : "Clarity is crucial because code is read more often than it is written.",
               "youtube" : "Qsx8U9aCISI",
               "resources" : [
@@ -610,6 +634,7 @@
             },
             {
               "title" : "Clear names",
+              "type" : "video",
               "description" : "Naming is one of the hardest problems in computer science.",
               "youtube" : "F728xwWZVZ4",
               "resources" : [
@@ -632,6 +657,7 @@
             },
             {
               "title" : "Clear documentation",
+              "type" : "video",
               "description" : "Bad documentation can seed doubt, confusion and despair!",
               "youtube" : "VzDHGD7486o",
               "resources" : [
@@ -649,6 +675,7 @@
             },
             {
               "title" : "Clear narratives",
+              "type" : "video",
               "description" : "Habitable software reads like a good story well told.",
               "youtube" : "OhDFCYNbGMY",
               "resources" : [
@@ -674,9 +701,10 @@
         {
           "title" : "Extensibility",
           "summary" : "Extensible software allows its core functionality to be enriched at runtime without altering its code.",
-          "videos" : [
+          "items" : [
             {
               "title" : "Why extensibility?",
+              "type" : "video",
               "description" : "Enhancing a system's functionality without re-opening components.",
               "youtube" : "3EhDVsH0KkE",
               "resources" : [
@@ -694,6 +722,7 @@
             },
             {
               "title" : "Observers",
+              "type" : "video",
               "description" : "Decoupling components by using observers to communicate events.",
               "youtube" : "-sf2zPnHBOw",
               "resources" : [
@@ -711,6 +740,7 @@
             },
             {
               "title" : "Middleware",
+              "type" : "video",
               "description" : "Decomposing message-processing applications with middleware.",
               "youtube" : "sY-e6DCf55Q",
               "resources" : [
@@ -728,6 +758,7 @@
             },
             {
               "title" : "Plug-ins",
+              "type" : "video",
               "description" : "How to implement a plug-in architecture with Ruby modules.",
               "youtube" : "scuVGe48XXA",
               "resources" : [
